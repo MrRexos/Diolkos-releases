@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "notes": "# Diolkos 0.1.0 · Vista previa\n\nTransferencias privadas entre dispositivos emparejados, con confirmación de código en ambos extremos, verificación BLAKE3, reanudación, carpetas y portapapeles. Interfaz en español e inglés, temas claro y oscuro y controles de transferencias.\n\nEsta entrega es una versión de prueba. Windows x64 se ha comprobado con la aplicación empaquetada y una transferencia real. Linux amd64 se ha compilado y arrancado en una sesión gráfica aislada. El paquete de macOS es para Apple Silicon y se ha compilado en GitHub Actions; falta la comprobación en un Mac físico.\n\nLos paquetes de escritorio incluyen firmas criptográficas del actualizador. Windows todavía no tiene firma de editor Authenticode y macOS no tiene firma Developer ID ni notarización de Apple.\n\nLa APK Android arranca sin Metro y está firmada con una clave de desarrollo para pruebas. En un emulador Android 15 se comprobaron emparejamiento, envío y recepción de una foto con GPS y publicación en MediaStore, con SHA-256 idéntico al original en ambos sentidos. No es el paquete de distribución de Google Play.\n\nQuedan por completar las pruebas físicas de segundo plano, iCloud, Live Photo/RAW, lectores de pantalla y rendimiento LAN. Esta versión no acredita todavía el objetivo de velocidad respecto a iperf3. La distribución en App Store y Google Play requiere las cuentas, certificados y validaciones de esas tiendas.\n",
+  "pub_date": "2026-11-10T06:17:41.907542+00:00",
+  "platforms": {
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVWd4NUt2b29zVC9kLzlxenVQRms5a2YyUVlyWE1ORjV1cVpKSnF3S1RoTDNvZ2h3MnJkK2ROWnc4TFhwSnF3bndIeVArWEgrNVNLZC8xNVlpYkxsZkZHT05waG52VWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjkwODgxCWZpbGU6ZGlvbGtvc18wLjEuMF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMS4wCkxKYXdHeS9aM0hZNGJoV2EreHNKdzVHUDM5c3ZsaDJ0Y0doQUhiUFg5MXlCYTBqY2ZoazZjcFM3QlpFWkoxUnJwRGRwMGNwSURoUUp3YnlWZFFKL0N3PT0K",
+      "url": "https://github.com/MrRexos/Diolkos-releases/releases/download/v0.1.0/diolkos_0.1.0_amd64.AppImage"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVWd4NUt2b29zVDhyR29UbkdoYjk5U2xmcFZwUWZ1UWJzRGtVYnB6OGQ0SlpFeFZ5Wk9DN2Y2eE1aYVlzcTErN1NteXRGc2pzcHRDKzl5N1JYZ3NBK1NjSUxCSGdGS2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjkwMTMzCWZpbGU6ZGlvbGtvcy5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAKVmxUVHo5TWhOMjBuWHp5TW5iK0ljbzU1RElxaVU1SFZBTkd6Z2FNUWlqN0ZwTzRsbDlQM1VKTlZ3VlVIcVRGeExEaHVyVlFXNGNUL0p6R2xEWENwQ3c9PQo=",
+      "url": "https://github.com/MrRexos/Diolkos-releases/releases/download/v0.1.0/diolkos.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVWd4NUt2b29zVDF2NThjWFYvUXhkRGVzMG9pWitibGpQSWJGUE1YODJiL290d1BVYmdyb1ljUGFBelloOUY5QVJNcFRCS1lFMFJ2Q3VVQ3EwcldDQzEwWHp2N0RQOUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjkwMTU3CWZpbGU6ZGlvbGtvc18wLjEuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjAKblZRSEVoblNBYzBlMzgrTnhJTmlqcXV4amRNZWJwRUhMVUk0OGtJaEJMaEVWWUZhMis2R3dOSWtVMEZtdThRaUdBOVIya0JxTVVPbXpoQitoTFY3RGc9PQo=",
+      "url": "https://github.com/MrRexos/Diolkos-releases/releases/download/v0.1.0/diolkos_0.1.0_x64-setup.exe"
+    }
+  }
+}
